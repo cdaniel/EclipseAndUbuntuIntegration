@@ -2,6 +2,9 @@ package org.eclipse.ubuntu;
 
 
 public class UnityLauncher {
+	{
+		System.loadLibrary("UnityLauncherTest2");
+	}
 	
 	public native long unity_launcher_entry_get_for_desktop_id (String id);
 	

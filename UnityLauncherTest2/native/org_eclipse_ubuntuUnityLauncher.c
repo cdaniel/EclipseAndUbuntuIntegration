@@ -5,7 +5,7 @@
  *      Author: kdaniel
  */
 #include "org_eclipse_ubuntu_UnityLauncher.h"
-#include <unity/unity/unity.h>
+
 
 /*
  * Class:     org_eclipse_ubuntu_UnityLauncher
