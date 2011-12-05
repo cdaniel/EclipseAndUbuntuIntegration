@@ -27,6 +27,7 @@ JNIEXPORT jlong JNICALL Java_org_eclipse_ubuntu_UnityLauncher_unity_1launcher_1e
  */
 JNIEXPORT void JNICALL Java_org_eclipse_ubuntu_UnityLauncher_unity_1launcher_1entry_1set_1progress_1visible
   (JNIEnv * env, jobject obj, jlong pointer, jboolean show){
+	unity_launcher_entry_set_progress_visible((UnityLauncherEntry*)pointer, show);
 	return;
 }
 
@@ -37,6 +38,7 @@ JNIEXPORT void JNICALL Java_org_eclipse_ubuntu_UnityLauncher_unity_1launcher_1en
  */
 JNIEXPORT void JNICALL Java_org_eclipse_ubuntu_UnityLauncher_unity_1launcher_1entry_1set_1progress
   (JNIEnv * env, jobject obj, jlong pointer, jdouble progress){
+	unity_launcher_entry_set_progress((UnityLauncherEntry*)pointer, progress);
 	return;
 }
 
