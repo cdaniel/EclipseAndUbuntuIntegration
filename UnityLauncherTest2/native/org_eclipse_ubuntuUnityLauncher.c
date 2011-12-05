@@ -5,6 +5,7 @@
  *      Author: kdaniel
  */
 #include "org_eclipse_ubuntu_UnityLauncher.h"
+#include <unity/unity/unity.h>
 
 /*
  * Class:     org_eclipse_ubuntu_UnityLauncher
@@ -12,8 +13,11 @@
  * Signature: (Ljava/lang/String;)J
  */
 JNIEXPORT jlong JNICALL Java_org_eclipse_ubuntu_UnityLauncher_unity_1launcher_1entry_1get_1for_1desktop_1id
-  (JNIEnv * env, jobject obj, jstring string){
-	return 0;
+  (JNIEnv * env, jobject obj, jstring desktopId){
+	const char *nativeDesktopId = (*env)->GetStringUTFChars(env, desktopId, 0);
+	long pointer = (long) unity_launcher_entry_get_for_desktop_id(nativeDesktopId);
+	(*env)->ReleaseStringUTFChars(env, desktopId, nativeDesktopId);
+	return pointer;
 }
 
 /*
