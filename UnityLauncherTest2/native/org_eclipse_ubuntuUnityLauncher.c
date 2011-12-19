@@ -1,9 +1,14 @@
 /*
- * org_eclipse_ubuntuUnityLauncher.c
+ * Copyright (c) 2011 Krzysztof Daniel.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
  *
- *  Created on: Dec 5, 2011
- *      Author: kdaniel
+ * Contributors:
+ *  Krzysztof Daniel - initial API and implementation
  */
+
 #include "org_eclipse_ubuntu_UnityLauncher.h"
 
 
