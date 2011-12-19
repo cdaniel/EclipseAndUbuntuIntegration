@@ -1,3 +1,6 @@
+This package aims at providing seamless integration for Eclipse and Ubuntu Unity Launcher, so Eclipse could display progress as native applications do. For more details please refer to my post in which I explain exactly what this code is supposed to do:
+     http://eclipseandlinux.blogspot.com/2011/12/eclipse-unity-integration-without-jna.html
+
 Requirements:
 Java SDK 1.6 or compatible
 Eclipse 3.7 classic with CDT & GIT
@@ -11,3 +14,4 @@ Usage:
 Things still to do:
 1. Automatically create eclipse.desktop file
 2. Installable feature - so you could install a feature and enjoy full Unity integration.
+3. Generate a version for 32-bit library
