@@ -1,0 +1,13 @@
+Requirements:
+Java SDK 1.6 or compatible
+Eclipse 3.7 classic with CDT & GIT
+
+Usage:
+1. Checkout the code
+2. Import the project (there is one currently)
+3. Run a sample launch configuration
+
+
+Things still to do:
+1. Automatically create eclipse.desktop file
+2. Installable feature - so you could install a feature and enjoy full Unity integration.
